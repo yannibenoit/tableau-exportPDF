@@ -72,6 +72,7 @@ $(document).ready(function () {
       }
 
       if("pdf" in params) {
+        // PARTIE A MODIFIER POUR RECUPERER LE PDF
         var pdf = params.endpoint
         xhr.onload = function() {
           var d = this.responseText
@@ -99,10 +100,8 @@ $(document).ready(function () {
   }
   var token = tabserver_connect(username, password, site, "Cost of a night out")
 
-    // Tell Tableau we'd like to initialize our extension
     tableau.extensions.initializeAsync().then(function () {
 
-      // Get the dashboard name from the tableau namespace and set it as our title
       const dashboardName = tableau.extensions.dashboardContent.dashboard.name;
       $('#choose_sheet_title').text(dashboardName);
     });
