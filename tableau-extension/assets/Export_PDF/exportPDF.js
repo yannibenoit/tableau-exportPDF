@@ -2,19 +2,12 @@
 
 (function () {
 
-  // // API variables
-  // const instance = 'http://37.187.170.119:13101/'
-  // const api_url = 'http://37.187.170.119:13101/api/3.2/'
-  // const site = ''
-  // const username = ''
-  // const password = ''
-
 
   const api_url = 'https://eu-west-1a.online.tableau.com/api/3.2'
   const auth_url = 'https://eu-west-1a.online.tableau.com/api/3.2/auth/signin'
   const username = ''
   const password = ''
-  const site = 'saegus'
+  const site = ''
 
 $(document).ready(function () {
 
