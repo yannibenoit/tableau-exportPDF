@@ -1,0 +1,7 @@
+pip
+pandas
+tqdm
+requests
+cython
+PyPDF2
+email
